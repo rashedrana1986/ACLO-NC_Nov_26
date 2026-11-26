@@ -1,0 +1,77 @@
+{
+  "ACLO_100xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "ACLO_300xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "ACLO_1000xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "ACLO-NC_100xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "ACLO-NC_300xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "ACLO-NC_1000xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "BIPOP_CMAES_anytime": {
+    "rows": 6480,
+    "expected": 6480,
+    "complete": true
+  },
+  "BOBYQA_anytime": {
+    "rows": 6480,
+    "expected": 6480,
+    "complete": true
+  },
+  "SPSO2011_anytime": {
+    "rows": 6480,
+    "expected": 6480,
+    "complete": true
+  },
+  "LSHADE_100xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "LSHADE_300xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "LSHADE_1000xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "ACLO-NC63_100xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "ACLO-NC63_300xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  },
+  "ACLO-NC63_1000xD": {
+    "rows": 2160,
+    "expected": 2160,
+    "complete": true
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "status": {
+    "blocks_done": 36,
+    "blocks_expected": 36,
+    "blocks": {
+      "pinene/ACLO_100xD": true,
+      "pinene/ACLO_300xD": true,
+      "pinene/ACLO_1000xD": true,
+      "pinene/ACLO-NC_100xD": true,
+      "pinene/ACLO-NC_300xD": true,
+      "pinene/ACLO-NC_1000xD": true,
+      "pinene/L-SHADE_100xD": true,
+      "pinene/L-SHADE_300xD": true,
+      "pinene/L-SHADE_1000xD": true,
+      "pinene/BIPOP-CMA-ES_anytime": true,
+      "pinene/BOBYQA_anytime": true,
+      "pinene/SPSO-2011_anytime": true,
+      "gr4jcn/ACLO_100xD": true,
+      "gr4jcn/ACLO_300xD": true,
+      "gr4jcn/ACLO_1000xD": true,
+      "gr4jcn/ACLO-NC_100xD": true,
+      "gr4jcn/ACLO-NC_300xD": true,
+      "gr4jcn/ACLO-NC_1000xD": true,
+      "gr4jcn/L-SHADE_100xD": true,
+      "gr4jcn/L-SHADE_300xD": true,
+      "gr4jcn/L-SHADE_1000xD": true,
+      "gr4jcn/BIPOP-CMA-ES_anytime": true,
+      "gr4jcn/BOBYQA_anytime": true,
+      "gr4jcn/SPSO-2011_anytime": true,
+      "hbv/ACLO_100xD": true,
+      "hbv/ACLO_300xD": true,
+      "hbv/ACLO_1000xD": true,
+      "hbv/ACLO-NC_100xD": true,
+      "hbv/ACLO-NC_300xD": true,
+      "hbv/ACLO-NC_1000xD": true,
+      "hbv/L-SHADE_100xD": true,
+      "hbv/L-SHADE_300xD": true,
+      "hbv/L-SHADE_1000xD": true,
+      "hbv/BIPOP-CMA-ES_anytime": true,
+      "hbv/BOBYQA_anytime": true,
+      "hbv/SPSO-2011_anytime": true
+    },
+    "complete": true
+  },
+  "friedman": {
+    "statistic": 24.174603174603163,
+    "p": 0.00020096428828714132,
+    "blocks": 9,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "L-SHADE",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "SPSO-2011"
+    ]
+  },
+  "mean_rank_all": {
+    "ACLO": 2.444,
+    "ACLO-NC": 2.0,
+    "BIPOP-CMA-ES": 3.111,
+    "BOBYQA": 3.667,
+    "L-SHADE": 3.889,
+    "SPSO-2011": 5.889
+  },
+  "mean_rank_by_budget": {
+    "100xD": {
+      "ACLO": 2.0,
+      "ACLO-NC": 1.667,
+      "BIPOP-CMA-ES": 3.333,
+      "BOBYQA": 3.333,
+      "L-SHADE": 4.667,
+      "SPSO-2011": 6.0
+    },
+    "300xD": {
+      "ACLO": 2.0,
+      "ACLO-NC": 2.333,
+      "BIPOP-CMA-ES": 2.667,
+      "BOBYQA": 3.667,
+      "L-SHADE": 4.333,
+      "SPSO-2011": 6.0
+    },
+    "1000xD": {
+      "ACLO": 3.333,
+      "ACLO-NC": 2.0,
+      "BIPOP-CMA-ES": 3.333,
+      "BOBYQA": 4.0,
+      "L-SHADE": 2.667,
+      "SPSO-2011": 5.667
+    }
+  },
+  "figures": [
+    "convergence.png",
+    "hydrograph_gr4jcn.png",
+    "hydrograph_hbv.png",
+    "pinene_fit.png"
+  ],
+  "primary_tests": {
+    "ACLO better": 19,
+    "no significant difference": 9,
+    "ACLO worse": 2,
+    "total": 30
+  }
+}

@@ -18,3 +18,21 @@ Tables of the two experiments of the paper. The names follow the paper: ACLO, AC
 | `app_reports_median.csv`, `app_reports_per_run.csv` | Calibration and validation KGE and NSE; residuals for alpha-pinene |
 | `app_best_parameters.csv` | Best parameter sets per problem, budget and method |
 | `app_aclo_gate.csv` | Skill-gate opening rate in the applications |
+
+## Columns used in several tables
+
+| Column | Meaning |
+| --- | --- |
+| `budget_xD`, `budget_mult`, `run_budget_xD` | Budget in evaluations per dimension (per parameter for the applications): 100, 300 or 1000 |
+| `label` | Campaign of a run. ACLO, ACLO-NC, ACLO-NC63 and L-SHADE were run once per budget (for example `ACLO_100xD`); BIPOP-CMA-ES, BOBYQA and SPSO-2011 were run once at the largest budget and read at each budget from their anytime records (`*_anytime`) |
+| `group` | BBOB function group: separable (f1-f5), moderate (f6-f9), ill_conditioned (f10-f14), multimodal_adequate (f15-f19), multimodal_weak (f20-f24), or all |
+| `median_R`, `lower95`, `upper95` | Median of the log-ratio R = log10((gap of B + 1e-9) / (gap of A + 1e-9)) over paired runs, with a 95% stratified bootstrap interval; positive values favour A (ACLO) |
+| `wins`, `losses`, `ties` | Paired runs in which A had the smaller, larger or equal final gap |
+| `hits_a`, `hits_b` | Runs that reached the final COCO target (precision 1e-8) |
+| `median_cpu_ratio` | Median ratio of CPU time, A over B |
+| `wilcoxon_p`, `wilcoxon_holm_p` | Wilcoxon signed-rank test on the non-zero values of R, before and after Holm correction |
+| `A12_aclo_better` | Vargha-Delaney effect size: probability that a random ACLO run is better than a random run of the competitor |
+| `p_ranksum`, `p_holm`, `family` | Mann-Whitney test, Holm-adjusted within its family (the 30 primary tests or the 15 secondary tests at 1000 x D) |
+| `kge_cal`, `nse_cal`, `kge_val`, `nse_val` | Kling-Gupta and Nash-Sutcliffe efficiency in the calibration and validation periods (hydrological problems) |
+| `sse`, `rmse_y1` ... `rmse_y5` | Sum of squared errors and the error of each of the five species (alpha-pinene) |
+| `k1_x1e5` ... `k5_x1e5` | Rate constants of the alpha-pinene model, multiplied by 1e5 |

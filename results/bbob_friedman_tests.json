@@ -1,0 +1,254 @@
+{
+  "100xD_all": {
+    "statistic": 4998.615229144559,
+    "p": 0.0,
+    "n_problems": 2160,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "100xD_separable": {
+    "statistic": 1633.2344078636734,
+    "p": 0.0,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "100xD_moderate": {
+    "statistic": 945.8208746820931,
+    "p": 4.655551269186376e-201,
+    "n_problems": 360,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "100xD_ill_conditioned": {
+    "statistic": 1710.7674307545376,
+    "p": 0.0,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "100xD_multimodal_adequate": {
+    "statistic": 1229.2255910987483,
+    "p": 2.2627720843853212e-262,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "100xD_multimodal_weak": {
+    "statistic": 855.450902282596,
+    "p": 1.6015027875267737e-181,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "300xD_all": {
+    "statistic": 4074.207381888063,
+    "p": 0.0,
+    "n_problems": 2160,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "300xD_separable": {
+    "statistic": 1314.4046929178749,
+    "p": 8.247784369464096e-281,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "300xD_moderate": {
+    "statistic": 973.7924596050273,
+    "p": 4.16179697604897e-207,
+    "n_problems": 360,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "300xD_ill_conditioned": {
+    "statistic": 1607.415713317655,
+    "p": 0.0,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "300xD_multimodal_adequate": {
+    "statistic": 1111.4239307414318,
+    "p": 7.040320477881958e-237,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "300xD_multimodal_weak": {
+    "statistic": 583.2053419668159,
+    "p": 9.774639136703279e-123,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "1000xD_all": {
+    "statistic": 3772.072599226993,
+    "p": 0.0,
+    "n_problems": 2160,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "1000xD_separable": {
+    "statistic": 1168.8807207605562,
+    "p": 2.598442289394266e-249,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "1000xD_moderate": {
+    "statistic": 938.7424503114808,
+    "p": 1.5795028358985214e-199,
+    "n_problems": 360,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "1000xD_ill_conditioned": {
+    "statistic": 1846.122327645886,
+    "p": 0.0,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "1000xD_multimodal_adequate": {
+    "statistic": 1218.0067012365378,
+    "p": 6.065142071752421e-260,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  },
+  "1000xD_multimodal_weak": {
+    "statistic": 405.792089513401,
+    "p": 1.58915191406508e-84,
+    "n_problems": 450,
+    "algorithms": [
+      "ACLO",
+      "ACLO-NC",
+      "ACLO-NC63",
+      "BIPOP-CMA-ES",
+      "BOBYQA",
+      "L-SHADE",
+      "SPSO-2011"
+    ]
+  }
+}

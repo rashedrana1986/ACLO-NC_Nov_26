@@ -23,7 +23,8 @@ ACLO is a derivative-free optimiser for bounded continuous problems in which eve
 | `src/competitors.py` | BIPOP-CMA-ES (pycma), BOBYQA (NLopt), L-SHADE and SPSO-2011, with the settings of the paper |
 | `src/budget.py` | The `BudgetReached` exception used by the competitors |
 | `src/applications.py` | Application problems: alpha-pinene kinetics; GR4J with snow and HBV on CAMELS basin 01031500 |
-| `results/` | Result tables of the two experiments of the paper |
+| `results/` | Result tables of the two experiments of the paper; each file is described in `results/README.md` |
+| `figures/` | Figures of the paper as PNG (400 dpi) and PDF files; each file is described in `figures/README.md` |
 
 ## Installation
 
@@ -108,6 +109,16 @@ q = make_problem('hbv', 'camels_data')           # HBV, 14 parameters, objective
 | Share of targets reached at 100 x D | ACLO 0.296; best other method 0.271 |
 | 1000 x D | BIPOP-CMA-ES ahead (0.611 against 0.483) |
 | Applications, 30 pre-registered tests | ACLO better in 19, equal in 9, worse in 2 |
+
+The tables behind these values are in `results/`: `bbob_preregistered_criteria.json` holds the five criteria with their observed values, and `app_ranksum_tests.csv` holds the 30 primary and 15 secondary tests of the applications with Holm-adjusted p-values and A12 effect sizes.
+
+The gain of curvature learning is concentrated on the ill-conditioned functions f10-f14, while ACLO loses small amounts on a few separable and moderate functions (f1, f3, f4 and f7), mainly at 100 and 300 x D (Figure 2 of the paper):
+
+![Median log-ratio of ACLO against ACLO-NC per BBOB function](figures/fig2_aclo_vs_nc_by_function.png)
+
+Against the four external methods, ACLO reaches the largest share of targets at 100 x D, while BIPOP-CMA-ES leads at 1000 x D (Figure 3 of the paper):
+
+![ECDF of runtimes for all methods](figures/fig3_ecdf.png)
 
 ## Status of this release
 
