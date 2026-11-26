@@ -1,0 +1,6 @@
+numpy
+scipy
+pandas
+numba
+cma
+nlopt
