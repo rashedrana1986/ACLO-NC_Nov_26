@@ -1,6 +1,6 @@
 # ACLO: Anchored Curvature-Learning Optimiser
 
-Code for the paper *Derivative-free optimisation with curvature learned from already-paid evaluations for budget-limited engineering model calibration* by Md. Rashedul Islam and Utpal Kanti Das (Department of Computer Science and Engineering, IUBAT, Dhaka, Bangladesh). The manuscript is in preparation; the citation will be added here.
+Code for the paper *Derivative-free optimisation with curvature learned from already-paid evaluations for budget-limited engineering model calibration* by Md. Rashedul Islam (Department of Computer Science and Engineering, IUBAT, Dhaka, Bangladesh). The manuscript is in preparation; the citation will be added here.
 
 ## What ACLO does
 
